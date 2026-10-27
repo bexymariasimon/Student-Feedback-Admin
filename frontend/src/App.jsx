@@ -11,7 +11,7 @@ import {
 import axios from "axios";
 import "./App.css";
 
-const API ="https://student-feedback-admin.onrender.com/api/feedback";;
+const API = "https://student-feedback-admin.onrender.com/api/feedback";
 
 function Dashboard() {
   const [feedback, setFeedback] = useState([]);
